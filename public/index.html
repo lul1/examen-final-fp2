@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="UTF-8">
+      <script type="text/javascript" src="main.js"></script>
+      <link rel="stylesheet" href="main.css" type="text/css" />
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous">
+    </script>
+    </head>
+    <h1>Ventas</h1>
+
+    <body>
+
+        <form method="POST">
+            <p>
+                <label for="product_name">Producto:</label>
+                <input type="text" name="product_name" id="product_name" required class="input-text">
+            </p>
+
+            <p>
+                <label for="quantity">Cantidad:</label>
+                <input type="text" name="quantity" id="quantity" class="input-text">
+            </p>
+
+            <p>
+                <label for="unit_price">Precio Unitario:</label>
+                <input type="text" name="unit_price" id="unit_price" class="input-text">
+            </p>
+
+            <p>
+                <label for="igv_checked">Incluye IGV</label>
+                <input type="checkbox" name="igv_checked" value="igv" id="igv_checked">
+
+            </p>
+            <input type="submit" value="Registrar">
+        </form>
+        <h2>Historial</h2>
+
+        <p id="message"></p>
+    </body>
+
+</html>

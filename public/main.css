@@ -1,0 +1,14 @@
+.input-text {
+  background-color: rgba(152, 38, 38, 0.48);
+	border: 2px solid rgba(152, 38, 38, 0.48);
+}
+
+#comentario {
+  background-color: rgba(152, 38, 38, 0.48);
+  border: 2px solid rgba(152, 38, 38, 0.48);
+}
+
+/*EXAMEN*/
+#message span {
+  display: block;
+}
